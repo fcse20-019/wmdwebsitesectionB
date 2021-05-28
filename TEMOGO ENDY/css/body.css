@@ -1,0 +1,42 @@
+body{
+background-image:url("../images/SINGA.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+}
+ section{
+     display: block;
+     align-items: center;
+     text-align: center;
+     background-color: #333333;
+
+ }
+
+ article{
+     background-color: #333333;
+     align-items: center;
+     text-align: center;
+ }
+ h1 {
+     font-family:century gothic;
+     color:white;
+ }
+ p{
+     font-family: Century Gothic;
+     color:#dddddd;
+ }
+ /* Style the footer */
+footer {
+  background-color: #cccccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
