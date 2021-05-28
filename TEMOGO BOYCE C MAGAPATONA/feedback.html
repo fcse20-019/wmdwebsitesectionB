@@ -1,0 +1,88 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="css/form.css">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/nav.css">
+      <title>Feedback</title>
+   </head>
+  <header>
+        <div class="topnav">
+
+  <a class="logo">Logo</a>
+  <a class="active" href="#home">Feedback</a>
+  <a href="Index.html">Home</a>
+  <a href="Contacts.html">Contact</a>
+  <a href="Events.html">Event</a>
+  <a href="lifestyle.html">Lifestyle</a>
+  </div>
+  </header>
+   <body>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+
+
+      <aside>
+
+      </aside>
+
+      <figure align="right">
+
+
+      </figure>
+        <script type="text/javascript">
+	  <!--
+
+	  function validate()
+	  {
+	      if (document.feedback.fname.value=="")
+		  {
+		  alert ("Please provide your First Name:");
+		  document.feedback.fname.focus();
+		  return false;
+		  }
+		  if ( document.feedback.lname.value=="")
+		  {
+		  alert (please provide your Last Name:");
+		  document.feedback.lname.focus();
+		  return false;
+		  }
+	  }
+
+
+	  </script>
+      <footer>
+	  <div class="footer">
+
+	      <p>
+		<a href="#" class="active">Facebook</a>
+        <a href="#" class="active">Twitter</a>
+        <a href="#" class="active">Instagram</a>
+ 		</p>
+
+	</div>
+
+         <p>Temogo &copy;2021</p>
+      </footer>
+
+   </body>
+</html>
